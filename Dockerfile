@@ -8,7 +8,7 @@ RUN apt-get update -y
 
 RUN pip install pyyaml==5.3.1
 
-RUN pip install setuptools
+RUN pip install packaging
 
 RUN pip install --upgrade pip awsebcli
 
